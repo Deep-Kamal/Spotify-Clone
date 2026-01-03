@@ -1,0 +1,84 @@
+body{
+  background-color: rgb(196, 255, 199);
+  
+}
+
+*{
+  margin: 0vh;
+  padding: 0vh;
+}
+
+nav{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+nav ul{
+  background-color: black;
+  align-items: center;
+  height: 60px;
+  display: flex;
+  list-style-type:  none;
+  color: aliceblue;
+}
+nav ul li{
+  padding: 0 12px;
+}
+
+.barnd img{
+  width: 66px;
+  padding: 0 6px;
+
+}
+.barnd{
+  display: flex;
+  align-self: center;
+  font-weight: bold;
+  font-size: 1.4rem
+}
+.container{
+  min-height: 68vh;
+  background-color: black;
+  color: rgb(244, 135, 11);
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  display: flex;
+  width: 70%;
+  margin: 22px auto;
+  border-radius: 12px;
+  padding: 3px;
+  background-image: url('image9.jpg');
+}
+
+.bottom{
+  position: relative;
+  height: 80px;
+  background-color: black;
+  color: white;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#myProgressBar{
+  width: 90vw;
+   
+}
+
+.SongItem{
+  height: 45px;
+  display: flex;
+  background-color:rgb(14, 2, 2);
+  width: 110%;
+  columns: black;
+  margin: 12px 0;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  border-radius: 40px;
+}
+.SongItem img{
+  width: 35px;
+  margin: 0 22px;
+  border-radius: 20px;
+}
